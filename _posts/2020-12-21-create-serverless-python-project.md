@@ -34,3 +34,8 @@ npm install --save serverless-python-requirements
       pythonRequirements:
         dockerizePip: non-linux
     ```
+
+4. Deploy
+```bash
+sls deploy --aws-profile [profile_name]
+```
